@@ -12,25 +12,57 @@
     "commands" : [
     {
       "script" : "append_text.js",
-      "handler" : "onRun",
+      "handler" : "translateDe",
       "shortcut" : "",
-      "name" : "Append...",
-      "identifier" : "append"
+      "name" : "German",
+      "identifier" : "translateDe"
     },
     {
       "script" : "append_text.js",
-      "handler" : "appendAgain",
+      "handler" : "translateAr",
       "shortcut" : "",
-      "name" : "Append Again",
-      "identifier" : "appendAgain"
+      "name" : "Arabic",
+      "identifier" : "translateAr"
+    },
+    {
+      "script" : "append_text.js",
+      "handler" : "translateFr",
+      "shortcut" : "",
+      "name" : "French",
+      "identifier" : "translateFr"
+    },
+    {
+      "script" : "append_text.js",
+      "handler" : "translateHi",
+      "shortcut" : "",
+      "name" : "Hindi",
+      "identifier" : "translateHi"
+    },
+      {
+      "script" : "append_text.js",
+      "handler" : "translateEs",
+      "shortcut" : "",
+      "name" : "Spanish",
+      "identifier" : "translateEs"
+    },
+    {
+      "script" : "append_text.js",
+      "handler" : "translateZh",
+      "shortcut" : "",
+      "name" : "Chinese",
+      "identifier" : "translateZh"
     }
   ],
 
   "menu": {
       "title": "Appender",
       "items": [
-        "append",
-        "appendAgain"
+        "translateDe",
+        "translateAr",
+        "translateFr",
+        "translateHi",
+        "translateEs",
+        "translateZh"
       ]
     }
   }
