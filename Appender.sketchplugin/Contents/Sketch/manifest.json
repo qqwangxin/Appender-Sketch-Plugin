@@ -1,61 +1,61 @@
 {
-    "name" : "Appender",
-    "description" : "Simple Sketch app plugin to batch append text to text layers.",
-    "authorEmail" : "ahmed_shaalan@icloud.com",
-    "author" : "Ahmed Shaalan",
+    "name" : "Locally",
+    "description" : "Locally is a simple Sketch app plugin to translate UI text to 5 different languages to stress test for localization",
+    "authorEmail" : "qqwangxin@gmail.com",
+    "author" : "Zewen Li and Jason Wang",
     "homepage": "https://github.com/ahmedshaalan/Appender-Sketch-Plugin",
-    "version" : "1.0.2",
+    "version" : "1.0.0",
     "identifier" : "com.shaalan.appender",
     "compatibleVersion": "41.2",
     "bundleVersion": 1,
 
     "commands" : [
     {
-      "script" : "append_text.js",
+      "script" : "locally.js",
       "handler" : "translateDe",
-      "shortcut" : "",
-      "name" : "German",
+      "shortcut" : "shift control 1",
+      "name" : "Translate to German",
       "identifier" : "translateDe"
     },
     {
-      "script" : "append_text.js",
+      "script" : "locally.js",
       "handler" : "translateAr",
-      "shortcut" : "",
-      "name" : "Arabic",
+      "shortcut" : "shift control 2",
+      "name" : "Translate to Arabic",
       "identifier" : "translateAr"
     },
     {
-      "script" : "append_text.js",
+      "script" : "locally.js",
       "handler" : "translateFr",
-      "shortcut" : "",
-      "name" : "French",
+      "shortcut" : "shift control 3",
+      "name" : "Translate to French",
       "identifier" : "translateFr"
     },
     {
-      "script" : "append_text.js",
+      "script" : "locally.js",
       "handler" : "translateHi",
-      "shortcut" : "",
-      "name" : "Hindi",
+      "shortcut" : "shift control 4",
+      "name" : "Translate to Hindi",
       "identifier" : "translateHi"
     },
       {
-      "script" : "append_text.js",
+      "script" : "locally.js",
       "handler" : "translateEs",
-      "shortcut" : "",
-      "name" : "Spanish",
+      "shortcut" : "shift control 5",
+      "name" : "Translate to Spanish",
       "identifier" : "translateEs"
     },
     {
-      "script" : "append_text.js",
+      "script" : "locally.js",
       "handler" : "translateZh",
-      "shortcut" : "",
-      "name" : "Chinese",
+      "shortcut" : "shift control 6",
+      "name" : "Translate to Chinese",
       "identifier" : "translateZh"
     }
   ],
 
   "menu": {
-      "title": "Appender",
+      "title": "Locally",
       "items": [
         "translateDe",
         "translateAr",
