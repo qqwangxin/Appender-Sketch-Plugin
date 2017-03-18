@@ -51,6 +51,13 @@
       "shortcut" : "shift control 6",
       "name" : "Translate to Chinese",
       "identifier" : "translateZh"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translatePs",
+      "shortcut" : "shift control 7",
+      "name" : "Pseudolocalize",
+      "identifier" : "translatePs"
     }
   ],
 
@@ -62,7 +69,8 @@
         "translateFr",
         "translateHi",
         "translateEs",
-        "translateZh"
+        "translateZh",
+        "translatePs"
       ]
     }
   }
