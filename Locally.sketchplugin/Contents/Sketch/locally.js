@@ -90,7 +90,7 @@ function translateList(textLayersFromSelection, langCodeIndex) {
       //handle multiline text layers
       var textArray = layer.stringValue().split("\n");
       for (var x = 0; x < textArray.length; x++) {
-          textArray[x] = pseudoLocalize(textArray[x])
+        textArray[x] = pseudoLocalize(textArray[x])          
       }
       var translation = textArray.join("\n")
       if (translation) {
