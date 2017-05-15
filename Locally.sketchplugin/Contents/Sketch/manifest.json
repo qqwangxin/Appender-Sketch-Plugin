@@ -2,10 +2,10 @@
     "name" : "Locally",
     "description" : "Locally is a simple Sketch app plugin to translate UI text to 5 different languages to stress test for localization",
     "authorEmail" : "qqwangxin@gmail.com",
-    "author" : "Zewen Li and Jason Wang",
-    "homepage": "https://github.com/ahmedshaalan/Appender-Sketch-Plugin",
+    "author" : "Zewen Li, Jason Wang and Nathan Suitter",
+    "homepage": "https://github.com/nsuitter/Locally",
     "version" : "1.0.0",
-    "identifier" : "com.shaalan.appender",
+    "identifier" : "com.suitter.Locally",
     "compatibleVersion": "41.2",
     "bundleVersion": 1,
 
