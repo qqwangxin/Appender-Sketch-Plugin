@@ -1,3 +1,4 @@
+// TODO: add prompt for user to get own API key so we don't blow through the limit
 var TRANSLATE_URL = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20170305T053617Z.246e0c7605e30fc1.f58783d349226ddb655927e2d4881a67a1e17e68"
 
 function getTranslateUrl(text, lang) {
@@ -19,18 +20,23 @@ function translateFr(context) {
   translate(context, langCode)
 }
 
-function translateHi(context) {
-  langCode = "hi"
+function translateTh(context) {
+  langCode = "th"
   translate(context, langCode)
 }
 
-function translateAr(context) {
-  langCode = "ar"
+function translateRu(context) {
+  langCode = "ru"
   translate(context, langCode)
 }
 
 function translatePs(context) {
   langCode = "ps"
+  translate(context, langCode)
+}
+
+function translateJa(context) {
+  langCode = "ja"
   translate(context, langCode)
 }
 

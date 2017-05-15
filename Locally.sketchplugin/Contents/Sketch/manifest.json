@@ -1,12 +1,12 @@
 {
     "name" : "Locally",
-    "description" : "Locally is a simple Sketch app plugin to translate UI text to 5 different languages to stress test for localization",
+    "description" : "Locally is a simple Sketch app plugin to translate UI text to 7 different languages (and pseudolocalization) to stress test for localization",
     "authorEmail" : "qqwangxin@gmail.com",
     "author" : "Zewen Li, Jason Wang and Nathan Suitter",
     "homepage": "https://github.com/nsuitter/Locally",
     "version" : "1.0.0",
     "identifier" : "com.suitter.Locally",
-    "compatibleVersion": "41.2",
+    "compatibleVersion": "43.2",
     "bundleVersion": 1,
 
     "commands" : [
@@ -19,10 +19,10 @@
     },
     {
       "script" : "locally.js",
-      "handler" : "translateAr",
+      "handler" : "translateJa",
       "shortcut" : "shift control 2",
-      "name" : "Translate to Arabic",
-      "identifier" : "translateAr"
+      "name" : "Translate to Japanese",
+      "identifier" : "translateJa"
     },
     {
       "script" : "locally.js",
@@ -33,17 +33,17 @@
     },
     {
       "script" : "locally.js",
-      "handler" : "translateHi",
-      "shortcut" : "shift control 4",
-      "name" : "Translate to Hindi",
-      "identifier" : "translateHi"
-    },
-      {
-      "script" : "locally.js",
       "handler" : "translateEs",
-      "shortcut" : "shift control 5",
+      "shortcut" : "shift control 4",
       "name" : "Translate to Spanish",
       "identifier" : "translateEs"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translateRu",
+      "shortcut" : "shift control 5",
+      "name" : "Translate to Russian",
+      "identifier" : "translateRu"
     },
     {
       "script" : "locally.js",
@@ -54,8 +54,15 @@
     },
     {
       "script" : "locally.js",
-      "handler" : "translatePs",
+      "handler" : "translateTh",
       "shortcut" : "shift control 7",
+      "name" : "Translate to Thai",
+      "identifier" : "translateTh"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translatePs",
+      "shortcut" : "shift control 8",
       "name" : "Pseudolocalize",
       "identifier" : "translatePs"
     }
@@ -65,11 +72,12 @@
       "title": "Locally",
       "items": [
         "translateDe",
-        "translateAr",
+        "translateJa",
         "translateFr",
-        "translateHi",
         "translateEs",
+        "translateRu",
         "translateZh",
+        "translateTh",
         "translatePs"
       ]
     }
