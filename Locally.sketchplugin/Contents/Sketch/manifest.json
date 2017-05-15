@@ -1,0 +1,84 @@
+{
+    "name" : "Locally",
+    "description" : "Locally is a simple Sketch app plugin to translate UI text to 7 different languages (and pseudolocalization) to stress test for localization",
+    "authorEmail" : "qqwangxin@gmail.com",
+    "author" : "Zewen Li, Jason Wang and Nathan Suitter",
+    "homepage": "https://github.com/nsuitter/Locally",
+    "version" : "1.0.0",
+    "identifier" : "com.suitter.Locally",
+    "compatibleVersion": "43.2",
+    "bundleVersion": 1,
+
+    "commands" : [
+    {
+      "script" : "locally.js",
+      "handler" : "translateDe",
+      "shortcut" : "shift control 1",
+      "name" : "Translate to German",
+      "identifier" : "translateDe"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translateJa",
+      "shortcut" : "shift control 2",
+      "name" : "Translate to Japanese",
+      "identifier" : "translateJa"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translateFr",
+      "shortcut" : "shift control 3",
+      "name" : "Translate to French",
+      "identifier" : "translateFr"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translateEs",
+      "shortcut" : "shift control 4",
+      "name" : "Translate to Spanish",
+      "identifier" : "translateEs"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translateRu",
+      "shortcut" : "shift control 5",
+      "name" : "Translate to Russian",
+      "identifier" : "translateRu"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translateZh",
+      "shortcut" : "shift control 6",
+      "name" : "Translate to Chinese",
+      "identifier" : "translateZh"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translateTh",
+      "shortcut" : "shift control 7",
+      "name" : "Translate to Thai",
+      "identifier" : "translateTh"
+    },
+    {
+      "script" : "locally.js",
+      "handler" : "translatePs",
+      "shortcut" : "shift control 8",
+      "name" : "Pseudolocalize",
+      "identifier" : "translatePs"
+    }
+  ],
+
+  "menu": {
+      "title": "Locally",
+      "items": [
+        "translateDe",
+        "translateJa",
+        "translateFr",
+        "translateEs",
+        "translateRu",
+        "translateZh",
+        "translateTh",
+        "translatePs"
+      ]
+    }
+  }
